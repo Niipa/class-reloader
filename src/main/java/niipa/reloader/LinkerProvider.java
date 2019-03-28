@@ -13,7 +13,8 @@ public class LinkerProvider {
     this(defaultConstructor(), constructorDefaultArg());
   }
 
-  public LinkerProvider(Constructor<? extends Linker> linkerConstructor, Object[] linkerConstructorArgs) {
+  public LinkerProvider(Constructor<? extends Linker> linkerConstructor,
+      Object[] linkerConstructorArgs) {
     this.linkerConstructor = linkerConstructor;
     this.linkerConstructorArgs = linkerConstructorArgs;
   }

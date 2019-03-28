@@ -2,7 +2,7 @@ package niipa.reloader;
 
 import org.junit.Test;
 
-public class LinkerImpl {
+public class LinkerImplTest {
 
   @Test
   public void canGetClassDefinitions() {}
